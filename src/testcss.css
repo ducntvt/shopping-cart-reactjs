@@ -1,0 +1,26 @@
+.cart-grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto) ;
+}
+
+.cart-grid-item {
+    border: 1px solid black;
+    text-align: center;
+}
+.cart-grid-row{
+    display: contents;
+}
+
+.wrap-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 800px;
+}
+
+.flex-item {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
